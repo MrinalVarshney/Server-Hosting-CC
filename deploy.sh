@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Initial Configration
-PROJECT_DIR="/home/mrinal"
+PROJECT_DIR="/home/mrinal/backend"
 GIT_REPO="https://github.com/MrinalVarshney/Server-Hosting-CC"
 BRANCH="main"
 	
