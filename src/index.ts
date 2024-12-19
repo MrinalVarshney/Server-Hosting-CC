@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 
-const PORT = 5000;
+const PORT = process.env.PORT;
 
 const app = express();
 
@@ -9,7 +9,7 @@ app.use(express.json())
 
 //Routes
 app.get("/",(req:Request,res:Response)=>{
-	res.status(200).json({message:"HII from server"});
+	res.status(200).json({message:`HII from server ${PORT}`});
 })
 
 // Error Handling Middleware
